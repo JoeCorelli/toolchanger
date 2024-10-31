@@ -40,3 +40,4 @@ link_extension() {
         ln -sf "${SRCDIR}"/*.py "${KLIPPER_PATH}/klippy/extras/"
     else
         echo "Error: ${KLIPPER_PATH}/klippy/extras does not exist. Verify KLIPPER_PATH."
+    fi    
